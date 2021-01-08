@@ -11,6 +11,8 @@ A p-value of less than 0.05 (showing statistical significance) suggests that the
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The calculated Multiple R-squared value was 0.71. This means that about 71% of the time the model will predict mpg values correctly. There may be other variables that affect the mpg of MechaCar prototypes that are not present in this particular dataset. 
 
+#### Multiple Linear Regression Output: 
+
 ![Multiple Linear Regression](/Multiple_Linear_Regression_Summary.png)
 
 ## Summary Statistics on Suspension Coils
@@ -19,19 +21,31 @@ The calculated Multiple R-squared value was 0.71. This means that about 71% of t
 
 Lot 1 and Lot 2 have almost the exact same mean and median and are within design specifications. Lot 3 on the other hand, shows the most variance and exceeds the manufacturers speculations. This is clearly shown in the PSI lot summary image below. 
 
-### PSI Total Summary
+#### PSI Total Summary:
 
 ![PSI total summary](/PSI_total_summary.png)
 
-### PSI Lot Summary
+#### PSI Lot Summary:
 
 ![PSI lot summary](/PSI_lot_summary.png)
 
 
 ## T-Tests on Suspension Coils
+
+#### t-test on all Lots:
+
 ![t-test on all lots](/t-test_across_all_lots.png)
+
+#### t-test on Lot 1:
+
 ![t-test on Lot 1](/Lot1_t-test.png)
+
+#### t-test on Lot 2:
+
 ![t-test on Lot 2](/Lot2_t-test.png)
+
+#### t-test on Lot 3:
+
 ![t-test on Lot 3](/Lot3_t-test.png)
 
 
