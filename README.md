@@ -32,6 +32,9 @@ Lot 1 and Lot 2 have almost the exact same mean and median and are within design
 
 ## T-Tests on Suspension Coils
 
+- A one sample- t-test was utlized to assess is a statistical difference existed between the means of the suspen sion coil's pound-per-inch (the sample dataset) and the population dataset which was hypothesized. The mean of the hypothesized population dataset was 1,500 pounds per inch. 
+- The p-value was 0.06028. The assumption was made that the significance level is 0.05 percent, so the value was indeed above it. Because the data is considered to have a normal distribution, there isnt enough evidence to reject the null hypothesis. Thus, it would lead us to say that the two means are statisically similar. 
+
 #### t-test on all Lots:
 
 ![t-test on all lots](/t-test_across_all_lots.png)
