@@ -50,7 +50,7 @@ Lot 1 and Lot 2 have almost the exact same mean and median and are within design
 
 
 ## Study Design: MechaCar vs Competition
-- This is a short description of a statistical study that can quantify how the MechaCar performs against the competition. There are a few metrics that would be of interest to a consumer and will allow for a better analysis of how MechaCar would perform against competition. A few of these include fuel efficiency, the cost of the car itself, the variety of colors, and customer satisfaction. 
+This is a short description of a statistical study that can quantify how the MechaCar performs against the competition. There are a few metrics that would be of interest to a consumer and will allow for a better analysis of how MechaCar would perform against competition. A few of these include fuel efficiency, the cost of the car itself, the variety of colors, and customer satisfaction. 
 
 ### Cost 
 - Many people pay attention to the upfront cost when buying a car. There are many more variables to consider, however. A few things one may have to consider are depreciation, fuel, maintenance, repairs and insurance. Depreciation is the largest of these costs. In order to compare the cost of various manufacturers, an ANOVA test would need to be performed in which cost and fuel efficiency data of various manufacturers would be obtained. The null hypothesis would state that the means of costs of all groups are equal. The alternate hypothesis would state that at least one of the means is different from the other groups. In order to assess reliability, the same test can be performed. 
