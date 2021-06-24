@@ -1,6 +1,11 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
+
+# Overview
+
+The purpose of this analysis is to utilize linear regression and hypothesis testing to garner insights on the MechaCar's production to assist the manufacturing team. In order to conduct this analysis, two datsets are being used. One contains information related to the miles per gallon and the other about suspension coils of the MechaCar. The programming language R and its dplyr library will be used to complete this analysis.
 
 ## Linear Regression to Predict MPG
+The miles per gallon dataset was loaded. A linear regression was run to see if predcitions about dependent variable, the miles per gallon (mpg), based on the vehicle weight, vehicle length, spoiler angle, ground clearance, and all wheel drive (AWD) independent variables. The following results were analyzed using the following questions. 
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Spoiler_angle,vehicle weight, and AWD provided a non-random amount of variance. The two variables that had the greatest amount of non-random variance are ground_clearance and vehicle_length. 
@@ -11,11 +16,13 @@ A p-value of less than 0.05 (showing statistical significance) suggests that the
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The calculated Multiple R-squared value was 0.71. This means that about 71% of the time the model will predict mpg values correctly. There may be other variables that affect the mpg of MechaCar prototypes that are not present in this particular dataset. 
 
-#### Multiple Linear Regression Output: 
+#### Multiple Linear Regression Output Results: 
 
 ![Multiple Linear Regression](/Multiple_Linear_Regression_Summary.png)
 
 ## Summary Statistics on Suspension Coils
+The suspension dataset was loaded. It consisted of 150 different vehicle ID's, 3 different car lot numbers, and corresponding PSI levels for each individual. Two summary tables were created to look at the mean, median, variance, and standard deviation of data. All of the data was looked at in the frist table. The second table is specific to the three different lots that the MechaCars were divided into. 
+The results were used to answer the following question. 
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
@@ -31,6 +38,7 @@ Lot 1 and Lot 2 have almost the exact same mean and median and are within design
 
 
 ## T-Tests on Suspension Coils
+The manufacturing lots were analyzed to determine if each individual lot is statistically different from the population mean of 1,500 pounds per square inch. R's t.test() function was usedto find four different p-values. 
 
 #### t-test on all Lots:
 
